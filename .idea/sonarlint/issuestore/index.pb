@@ -18,10 +18,6 @@ NTestExecutionReports/2020.12.17_00-02-45/cucumber-html-reports/js/Chart.min.js
 NTestExecutionReports/2020.12.17_00-08-42/cucumber-html-reports/js/Chart.min.js,b/5/b5e4cd6c8a02a23736a3cd9195bc9dbc88c8aebf
 {
 Ksrc/test/java/com/account/my/stepDefinitions/CityBikApiValidationSteps.java,4/b/4bb5e2230312476ac10ef01e0163add2370b9ee0
-]
--src/test/resources/features/cityBikes.feature,1/c/1ca1d2940a84c5f394d17e4fc32cb8f035c6c68a
-[
-+src/test/resources/configuration.properties,a/4/a4e70910212c50e2af181bc6a680c1cad6878a14
 
 OTestExecutionReports/2020.12.17_00-02-45/cucumber-html-reports/css/cucumber.css,7/e/7ec82381e7626fa1a4476175fbc51e83274989a1
 
@@ -46,8 +42,6 @@ OTestExecutionReports/2020.12.17_00-08-42/cucumber-html-reports/js/jquery.min.js
 [TestExecutionReports/2020.12.17_00-02-45/cucumber-html-reports/js/jquery.tablesorter.min.js,5/4/54a6e8a3f09c45e93f75f29c504dcc420a383e5f
 ‹
 [TestExecutionReports/2020.12.17_00-08-42/cucumber-html-reports/js/jquery.tablesorter.min.js,8/b/8b5f92c70657eb800cc0ad6efcfcb6377d972f92
-L
-src/test/resources/log4j.xml,f/c/fc3efc6f3b664ca966a0322c1d4f1a3ccabced56
 
 OTestExecutionReports/2020.12.17_00-02-45/cucumber-html-reports/js/moment.min.js,d/c/dc397bef9ade8bf51f9381bf9b7e80998d431364
 

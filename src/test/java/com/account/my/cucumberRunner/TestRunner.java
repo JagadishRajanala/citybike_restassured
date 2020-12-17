@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "json:target/cucumber_reports/cucumber.json"},
         monochrome = true,
         glue = {"com.account.my.stepDefinitions"},
-        tags = {"@testone"}
+        tags = {"@AllTests"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }

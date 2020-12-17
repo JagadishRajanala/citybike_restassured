@@ -1,10 +1,10 @@
-@All
-  @testone
+@AllTests
 Feature: Validate the location of city bikes around the world
   As a user, I want to verify that the city Frankfurt is in Germany and return their correspondent latitude and longitude
   For each valid request, returns city location details including latitude and longitude
   For each invalid request, returns error response
 
+@Positive
   Scenario Outline: validate that the city <cityName> is in <countryName> and return their correspondent latitude and longitude
     Given I want to test "<serviceUrl>" service
     When I do a GET request for "<uri>"
@@ -12,7 +12,7 @@ Feature: Validate the location of city bikes around the world
     And Cycle brand "<company>" City "<cityName>" should belong to Country "<countryName>"
     And response should contain the <latitude> and <longitude>
 
-    @Positive
+
     Examples:
       | serviceUrl                        | expectedStatus | uri                     | company       | cityName  | countryName | latitude | longitude |
       | http://api.citybik.es/v2/networks | 200            | /visa-frankfurt         | Nextbike GmbH | Frankfurt | DE          | 50.1072  | 8.66375   |
